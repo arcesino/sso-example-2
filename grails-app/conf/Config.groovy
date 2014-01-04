@@ -113,4 +113,4 @@ grails.plugins.springsecurity.cas.serviceUrl = 'http://localhost:8082/sso-exampl
 grails.plugins.springsecurity.cas.serverUrlPrefix = 'https://localhost:8443/cas'
 grails.plugins.springsecurity.cas.proxyCallbackUrl = 'http://localhost:8082/sso-example-2/secure/receptor'
 grails.plugins.springsecurity.cas.proxyReceptorUrl = '/secure/receptor'
-grails.plugins.springsecurity.logout.afterLogoutUrl = 'https://localhost:8443/cas/logout?url=http://localhost:8082/sso-example-2/'
+grails.plugins.springsecurity.logout.afterLogoutUrl = 'https://localhost:8443/cas/logout?service=http://localhost:8082/sso-example-2'
