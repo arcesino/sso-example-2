@@ -12,10 +12,14 @@ hibernate {
 // environment specific settings
 environments {
     development {
-        dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
-        }
+      dataSource {
+        dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
+        driverClassName = "com.mysql.jdbc.Driver"
+        dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+        url = "jdbc:mysql://localhost:3306/cas_dev?useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8"
+        username = "root"
+        password = ""
+      }
     }
     test {
         dataSource {

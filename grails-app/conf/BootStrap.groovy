@@ -4,8 +4,8 @@ class BootStrap {
 
 	def init = { servletContext ->
 		new User(
-				username:"codeisdesign",
-				password:"password",
+				username:"cas@winbits.com",
+				password:"s3cr3t0",
 				enabled:true,
 				accountExpired:false,
 				accountLocked:false,
