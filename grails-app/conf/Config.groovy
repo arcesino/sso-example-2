@@ -109,8 +109,8 @@ grails.plugins.springsecurity.interceptUrlMap = [
  ]
 
 grails.plugins.springsecurity.cas.loginUri = '/login'
-grails.plugins.springsecurity.cas.serviceUrl = 'http://localhost:8082/sso-example-2/j_spring_cas_security_check'
+grails.plugins.springsecurity.cas.serviceUrl = 'http://sso2.winbits.com/sso-example-2/j_spring_cas_security_check'
 grails.plugins.springsecurity.cas.serverUrlPrefix = 'https://localhost:8443/cas'
-grails.plugins.springsecurity.cas.proxyCallbackUrl = 'http://localhost:8082/sso-example-2/secure/receptor'
+grails.plugins.springsecurity.cas.proxyCallbackUrl = 'http://sso2.winbits.com/sso-example-2/secure/receptor'
 grails.plugins.springsecurity.cas.proxyReceptorUrl = '/secure/receptor'
-grails.plugins.springsecurity.logout.afterLogoutUrl = 'https://localhost:8443/cas/logout?service=http://localhost:8082/sso-example-2'
+grails.plugins.springsecurity.logout.afterLogoutUrl = 'https://localhost:8443/cas/logout?service=http://sso2.winbits.com/sso-example-2'
